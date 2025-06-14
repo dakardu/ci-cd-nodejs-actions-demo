@@ -35,5 +35,5 @@
 -   `POST /mensaje` → Envía un mensaje en JSON  
     _Body_: `{ "texto": "Hola desde el frontend" }`
 
-✍️ Auto
+✍️ Autor
 Dagoberto - @dakardu
