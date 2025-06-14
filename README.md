@@ -1,2 +1,39 @@
-# ci-cd-nodejs-actions-demo
-Demostración de CI/CD con Node.js y GitHub Actions
+# CI/CD Node.js Demo 🚀
+
+![Node.js CI](https://github.com/dakardu/ci-cd-nodejs-actions-demo/actions/workflows/ci.yml/badge.svg)
+
+> Proyecto de ejemplo que demuestra un flujo completo de integración y despliegue continuo (CI/CD) con Node.js, Express, Jest, Supertest y GitHub Actions.
+
+---
+
+## 🧰 Tecnologías utilizadas
+
+-   [Node.js](https://nodejs.org/)
+-   [Express](https://expressjs.com/)
+-   [Jest](https://jestjs.io/)
+-   [Supertest](https://github.com/visionmedia/supertest)
+-   [Nodemon](https://www.npmjs.com/package/nodemon)
+-   [Morgan](https://www.npmjs.com/package/morgan)
+-   [GitHub Actions](https://docs.github.com/actions)
+
+---
+
+## 🚀 Instalación y uso local
+
+1. Clona el repositorio:
+
+    ```bash
+    git clone https://github.com/dakardu/ci-cd-nodejs-actions-demo.git
+    cd ci-cd-nodejs-actions-demo
+    ```
+
+## 🧪 Endpoints disponibles
+
+-   `GET /` → Devuelve mensaje de bienvenida
+-   `GET /saludo/:nombre` → Saluda con tu nombre parametro nombre  
+    _Ejemplo_: `/saludo/Dagoberto` → `"¡Hola, Dagoberto!"`
+-   `POST /mensaje` → Envía un mensaje en JSON  
+    _Body_: `{ "texto": "Hola desde el frontend" }`
+
+✍️ Auto
+Dagoberto - @dakardu

@@ -1,0 +1,23 @@
+{
+	"name": "ci-cd-nodejs-actions-demo",
+	"version": "1.0.0",
+	"description": "Demostración de CI/CD con Node.js y GitHub Actions",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "dakardu",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^5.1.0",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"jest": "^30.0.0",
+		"nodemon": "^3.1.10",
+		"supertest": "^7.1.1"
+	}
+}
