@@ -27,13 +27,22 @@
     cd ci-cd-nodejs-actions-demo
     ```
 
+## Pruebas con Jest
+
+Este proyecto usa Jest para realizar pruebas automatizadas sobre la API.  
+Para ejecutar las pruebas, usa el siguiente comando:
+
+```bash
+npm test
+
 ## 🧪 Endpoints disponibles
 
 -   `GET /` → Devuelve mensaje de bienvenida
--   `GET /saludo/:nombre` → Saluda con tu nombre parametro nombre  
+-   `GET /saludo/:nombre` → Saluda con tu nombre parametro nombre
     _Ejemplo_: `/saludo/Dagoberto` → `"¡Hola, Dagoberto!"`
--   `POST /mensaje` → Envía un mensaje en JSON  
+-   `POST /mensaje` → Envía un mensaje en JSON
     _Body_: `{ "texto": "Hola desde el frontend" }`
 
 ✍️ Autor
 Dagoberto - @dakardu
+```
