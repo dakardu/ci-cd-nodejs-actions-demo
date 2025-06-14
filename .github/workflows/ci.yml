@@ -18,11 +18,5 @@ jobs:
             - name: Install dependencies
               run: npm install
 
-            - name: Instalar Jest
-              run: npm install jest --save-dev
-            - name: Verificar Jest
-              run: ls -l node_modules/.bin/jest
-            - name: Asignar permisos a Jest
-              run: chmod +x node_modules/.bin/jest
             - name: Ejecutar tests
               run: npm test
