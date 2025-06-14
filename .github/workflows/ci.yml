@@ -21,6 +21,6 @@ jobs:
             - name: Verificar Jest
               run: npx jest --version
             - name: Asignar permisos a Jest
-              run: chmod +x node_modules/bin/jest
+              run: chmod +x node_modules/.bin/jest
             - name: Ejecutar tests
               run: npx test
