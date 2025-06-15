@@ -1,5 +1,4 @@
 name: Publicar imagen en Docker Hub
-
 on:
     push:
         branches:
@@ -21,8 +20,8 @@ jobs:
 
             - name: Construir y etiquetar la imagen
               run: |
-                  docker build -t dagoberto123/app-node:latest .
-                  docker tag dagoberto123/app-node:latest dagoberto123/app-node:latest
+                  docker build -t dakardu/app-node:latest .
+                  docker tag dakardu/app-node:latest dakardu/app-node:latest
 
             - name: Subir imagen a Docker Hub
-              run: docker push dagoberto123/app-node:latest
+              run: docker push dakardu/app-node:latest
